@@ -1,1 +1,1 @@
-# Pricing UI In Next.JS & Chakra-UI!
+# Pricing UI In Next.JS With Chakra UI!
