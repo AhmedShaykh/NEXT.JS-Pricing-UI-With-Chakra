@@ -7,7 +7,7 @@ const Header: FC = () => {
         <Box
             as="section"
             color="gray.50"
-            bg="purple.600"
+            bg="purple.700"
             pt={["60px", "60px", "90px"]}
             pb="198px"
             px={["1.4rem" ,"auto"]}
