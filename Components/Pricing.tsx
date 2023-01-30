@@ -39,26 +39,45 @@ const Pricing: FC = () => {
                 textAlign="center"
             >
                 <Flex direction={["column", "column", "row"]}>
-                    <Box bg="#F0EAFB" p={["28px", "6opx", "60px"]}>
-                        <Text fontSize="xl" fontWeight="extrabold">
+                    <Box
+                        bg="#F0EAFB"
+                        p={["28px", "6opx", "60px"]}
+                    >
+                        <Heading
+                            fontSize={["2xl", "2xl", "3xl"]}
+                            fontWeight="extrabold"
+                        >
                             Premium PRO
-                        </Text>
-                        <Heading as="h3" fontSize={["5xl", "5xl", "6xl"]} mt="4">
+                        </Heading>
+                        <Heading
+                            as="h3"
+                            fontSize={["5xl", "5xl", "6xl"]}
+                            mt="2"
+                        >
                             $329
                         </Heading>
-                        <Text color="gray.900" fontSize="lg" fontWeight="medium" mt="2">
+                        <Text
+                            color="gray.900"
+                            fontSize="lg"
+                            fontWeight="medium"
+                            mt="2"
+                        >
                             billed just once
                         </Text>
                         <Button
                             colorScheme="purple"
-                            size="lg"
-                            w={["auto", "282px", "282px"]}
+                            size={["md","lg"]}
+                            w={["230px", "282px", "282px"]}
                             mt="6"
                         >
                             Get Started
                         </Button>
                     </Box>
-                    <Box p={["32px", "32px", "60px"]} fontSize="lg" bg="white">
+                    <Box
+                        p={["32px", "32px", "60px"]}
+                        fontSize="lg"
+                        bg="white"
+                    >
                         <Text textAlign="left">
                             Access these features when you get this pricing package for your
                             business.

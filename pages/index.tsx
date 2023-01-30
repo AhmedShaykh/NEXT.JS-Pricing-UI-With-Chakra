@@ -1,9 +1,9 @@
 "use client"
 import { FC } from 'react';
 import Head from 'next/head';
-import Header from '../public/Components/Header';
-import Pricing from '../public/Components/Pricing';
-import Features from '../public/Components/Features';
+import Header from '../Components/Header';
+import Pricing from '../Components/Pricing';
+import Features from '../Components/Features';
 
 const Home: FC = () => {
     return (

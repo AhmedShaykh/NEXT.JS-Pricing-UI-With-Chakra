@@ -32,7 +32,7 @@ function Feature(props: FeatureProps) {
 
 const Features: FC = () => {
     return (
-        <Box maxW="1024px" m="auto" pt="60px" pb="8" as="section">
+        <Box maxW="1024px" m="auto" pt="60px" pb="20" as="section">
             <Stack
                 px="12"
                 direction={["column", "column", "row"]}
